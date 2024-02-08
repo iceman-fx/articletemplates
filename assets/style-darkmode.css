@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document for articletemplates - DarkMode */
+/* v1.0 */
+
+body.rex-theme-dark #arttmpl-button .btn-default { background-color: #1867a6; border-color: #1867a6; color: rgba(255,255,255, 0.75); }
+
+body.rex-theme-dark #arttmpl-selector .arttmpl-content { background-color: #202b35; }
+body.rex-theme-dark #arttmpl-selector .arttmpl-header, body.rex-theme-dark #arttmpl-selector .arttmpl-item.arttmpl-cat { background-color: #1f3d3c !important; color: rgba(255, 255, 255, 0.75) !important; }
+
+body.rex-theme-dark #arttmpl-selector input { color: rgba(255,255,255, 0.75); background-color: rgba(27,35,44, 0.8); border-color: rgba(21,28,34, 0.8); }
+body.rex-theme-dark #arttmpl-selector .arttmpl-close button { color: rgba(255,255,255, 0.75); }
+body.rex-theme-dark #arttmpl-selector .arttmpl-cat-desc { color: rgba(255,255,255, 0.5); }
+
+body.rex-theme-dark #arttmpl-selector .arttmpl-item { border-color: #1c4260; }
+body.rex-theme-dark #arttmpl-selector .arttmpl-item-header { background-color: #213c51; color: rgba(255,255,255, 0.75); }
+body.rex-theme-dark #arttmpl-selector .arttmpl-item:hover .arttmpl-item-header { background-color: #1c4260; }
+body.rex-theme-dark #arttmpl-selector .arttmpl-item-desc { background: rgba(33,60,81, 0.85); color: rgba(255,255,255, 0.75); }
+
+body.rex-theme-dark #arttmpl-selector .arttmpl-mode-list .arttmpl-item, body.rex-theme-dark #arttmpl-selector .arttmpl-item-header, body.rex-theme-dark #arttmpl-selector .arttmpl-mode-list .arttmpl-item-desc { color: rgba(255,255,255, 0.75); }
+body.rex-theme-dark #arttmpl-selector .arttmpl-mode-list .arttmpl-item { background-color: #213c51; border-color: #213c51; }
+body.rex-theme-dark #arttmpl-selector .arttmpl-mode-list .arttmpl-item:hover { background-color: #1c4260; border-color: #1c4260; }
+
+
+
+@media (prefers-color-scheme: dark){	
+    body:not(.rex-theme-light) #arttmpl-button .btn-default { background-color: #1867a6; border-color: #1867a6; color: rgba(255,255,255, 0.75); }
+
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-content { background-color: #202b35; }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-header, body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item.arttmpl-cat { background-color: #1f3d3c !important; color: rgba(255, 255, 255, 0.75) !important; }
+
+    body:not(.rex-theme-light) #arttmpl-selector input { color: rgba(255,255,255, 0.75); background-color: rgba(27,35,44, 0.8); border-color: rgba(21,28,34, 0.8); }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-close button { color: rgba(255,255,255, 0.75); }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-cat-desc { color: rgba(255,255,255, 0.5); }
+
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item { border-color: #1c4260; }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item-header { background-color: #213c51; color: rgba(255,255,255, 0.75); }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item:hover .arttmpl-item-header { background-color: #1c4260; }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item-desc { background: rgba(33,60,81, 0.85); color: rgba(255,255,255, 0.75); }
+
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-mode-list .arttmpl-item, body:not(.rex-theme-light) #arttmpl-selector .arttmpl-item-header, body:not(.rex-theme-light) #arttmpl-selector .arttmpl-mode-list .arttmpl-item-desc { color: rgba(255,255,255, 0.75); }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-mode-list .arttmpl-item { background-color: #213c51; border-color: #213c51; }
+    body:not(.rex-theme-light) #arttmpl-selector .arttmpl-mode-list .arttmpl-item:hover { background-color: #1c4260; border-color: #1c4260; }
+}

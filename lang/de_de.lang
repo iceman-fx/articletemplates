@@ -1,0 +1,121 @@
+# addon: articletemplates de_de
+
+a1826_title = Artikelvorlagen
+
+a1826_default = Artikelvorlagen
+a1826_cat = Kategorien
+a1826_config = Einstellungen
+a1826_help = Hilfe
+
+a1826_head_basics = Artikelvorlage
+a1826_head_cat = Kategorie
+a1826_head_config = Einstellungen
+a1826_head_help = Onlinehilfe
+
+a1826_subheader_bas1 = Allgemein
+a1826_subheader_bas2 = Definition Artikelvorlage
+
+a1826_text1 = 
+
+
+# Globale Felder
+a1826_std_status = Sichtbar / Aktiv
+a1826_std_title = Titel / Bezeichnung
+a1826_std_description = Beschreibung
+a1826_std_cat = Kategorie
+a1826_std_media = Vorschaubild
+
+
+# Seite: Default
+a1826_bas_article_id = Vorlage-Artikel
+a1826_bas_cat_empty = - keine Kategorie -
+
+a1826_bas_list_name = Titel / Bezeichnung
+a1826_bas_list_artid = Vorlage-Artikel
+a1826_bas_list_artid_notfound = Artikel nicht gefunden
+a1826_bas_list_media = Vorschaubild
+
+
+# Seite: Einstellungen
+a1826_config_displaymode = Darstellung der Vorlagenauswahl
+a1826_config_displaymode_boxed = Kacheln/Blöcke
+a1826_config_displaymode_list = Liste
+a1826_config_imageorientation = Darstellung der Vorschaubilder
+a1826_config_imageorientation_ls = Querformat
+a1826_config_imageorientation_pt = Hochformat
+a1826_config_use_artname = Artikelnamen als Titel
+a1826_config_use_artname_info = Artikelnamen bei fehlendem Titel/Bezeichnung ausgeben
+a1826_config_use_search = Suchfunktion
+a1826_config_use_search_info = Suchfunktion in der Vorlagenauswahl aktivieren
+a1826_config_use_sametemplates = Vorlagenauswahl eingrenzen
+a1826_config_use_sametemplates_info = Nur Vorlagen mit gleichem Template wie Artikel als Auswahl bereitstellen
+
+
+# Einbindung/Ausgabe
+a1826_mod_header = Auswahl der Artikel-Vorlage
+a1826_mod_addtemplate = Artikelvorlage wählen
+a1826_mod_searching = Suchbegriff eingeben ...
+a1826_mod_loading = Vorlagen werden geladen ...
+a1826_mod_notfound = Es konnten keine hinterlegten Vorlagen gefunden werden.
+
+
+# Sonstige Vorgaben
+a1826_example = Beispiel
+a1826_examples = Beispiele...
+a1826_days = Tage
+a1826_clock = Uhr
+a1826_overview = Übersicht:
+
+a1826_search_all = alle
+a1826_search_noselection = - keine Auswahl -
+a1826_search_sort = Ansicht
+a1826_search_sort_onlyactive = nur aktive Einträge (online)
+a1826_search_sort_onlyinactive = nur deaktivierte Einträge (offline)
+a1826_search_keyword = Suchbegriff
+a1826_search_submit = suchen
+a1826_search_reset = Suche zurücksetzen
+a1826_search_notfound = Es wurden keine Einträge gefunden.
+a1826_search_more = mehr Optionen
+a1826_search_cat = Kategorie
+a1826_search_archive = Nur Archiveinträge anzeigen
+
+a1826_edit = ändern
+a1826_duplicate = duplizieren
+a1826_delete = löschen
+a1826_online = online
+a1826_offline = offline
+a1826_new = hinzufügen
+a1826_create = erstellen
+a1826_save = Speichern
+a1826_apply = Übernehmen
+a1826_abort = Abbrechen
+a1826_close = Schließen
+a1826_accept = übernehmen
+a1826_open= öffnen
+a1826_remove = entfernen
+a1826_copiedname = _Kopie
+a1826_yes = ja
+a1826_no = nein
+a1826_all = alle
+a1826_details = Details
+a1826_statusfunc = Funktionen
+a1826_setstatus = Status ändern
+a1826_showhide = anzeigen/ausblenden
+a1826_showbox = anzeigen/ausblenden
+
+a1826_notice = Hinweis
+a1826_error = Es ist ein Fehler aufgetreten!
+a1826_settings_saved = Die Einstellungen wurden gespeichert
+a1826_entry_saved = Eintrag gespeichert
+a1826_entry_deleted = Eintrag gelöscht
+a1826_entry_used = Eintrag ist einem anderen Datensatz zugeordnet.
+a1826_entry_exists = Ein Eintrag mit dieser Bezeichnung/Kennung existiert bereits.
+a1826_entry_emptyfields = Es wurden nicht alle Pflichtfelder ausgefüllt.
+a1826_entry_emptyfield = Ein zusätzlich benötigtes Feld wurde nicht ausgefüllt
+a1826_entry_badchars = Es wurden unzulässige Zeichen eingegeben
+a1826_error_saved = Fehler beim Speichern
+a1826_error_deleted = Fehler beim Löschen
+a1826_error_setstatus = Fehler beim Statusändern
+a1826_error_setstatus_info = Hinweis: Status wegen bestehender Zuweisung nicht geändert!
+
+a1826_error_noarticle_or_notempty = Vorlage-Artikel nicht gefunden oder Ziel-Artikel besitzt bereits Inhalte
