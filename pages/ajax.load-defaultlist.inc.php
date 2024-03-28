@@ -2,7 +2,7 @@
 /*
 	Redaxo-Addon Articletemplates
 	Verwaltung: AJAX Loader - Artikelliste
-	v1.0
+	v1.0.1
 	by Falko Müller @ 2024
 */
 
@@ -77,7 +77,7 @@ $sql_limit = " LIMIT ".($limStart * $limCount).",".$limCount;
 
 
 //SQL zwischenspeichern
-//$_SESSION['as_sql_aknews'] = $sql.$sql_where;
+//$_SESSION['as_sql_arttmpl'] = $sql.$sql_where;
 
 
 //Ergebnisse nachladen

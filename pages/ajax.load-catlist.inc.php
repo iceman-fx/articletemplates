@@ -2,7 +2,7 @@
 /*
 	Redaxo-Addon Articletemplates
 	Verwaltung: AJAX Loader - Kategorien
-	v1.0
+	v1.0.1
 	by Falko Müller @ 2024
 */
 
@@ -60,7 +60,7 @@ $sql_limit = " LIMIT ".($limStart * $limCount).",".$limCount;
 
 
 //SQL zwischenspeichern
-//$_SESSION['as_sql_aknews_cat'] = $sql.$sql_where;
+//$_SESSION['as_sql_arttmpl_cat'] = $sql.$sql_where;
 
 
 //Ergebnisse nachladen
@@ -80,7 +80,7 @@ $addPath = "index.php?page=".$page;
 					$eid = intval($db->getValue('id'));
 					$editPath = $addPath.'&amp;func=update&amp;id='.$eid;
 
-                    $title 	= aknews_helper::maskChar(aknews_helper::textOnly($db->getValue('title'), true));
+                    $title 	= arttmpl_helper::maskChar(arttmpl_helper::textOnly($db->getValue('title'), true));
                     
                     
                     //Ausgabe

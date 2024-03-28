@@ -2,7 +2,7 @@
 /*
 	Redaxo-Addon Articletemplates
 	Verwaltung: Kategorien
-	v1.0
+	v1.0.1
 	by Falko Müller @ 2024
 */
 
@@ -21,7 +21,7 @@ $clang_id = rex_be_controller::getCurrentPagePart(3);													//2. Untereben
 	$clang_id = ($clang_id <= 0) ? 1 : $clang_id;
 
 
-$_SESSION['as_sbeg_aknews_cat'] = (!isset($_SESSION['as_sbeg_aknews_cat'])) ? "" : $_SESSION['as_sbeg_aknews_cat'];
+$_SESSION['as_sbeg_arttmpl_cat'] = (!isset($_SESSION['as_sbeg_arttmpl_cat'])) ? "" : $_SESSION['as_sbeg_arttmpl_cat'];
 
 
 //Formular dieser Seite verarbeiten
@@ -275,7 +275,7 @@ else:
 						<td class="td3">
 
 							<div class="input-group sbeg">
-								<input class="form-control" type="text" name="s_sbeg" id="s_sbeg" maxlength="50" value="<?php echo aknews_helper::maskChar($_SESSION['as_sbeg_aknews_cat']); ?>" placeholder="<?php echo $this->i18n('a1826_search_keyword'); ?>">
+								<input class="form-control" type="text" name="s_sbeg" id="s_sbeg" maxlength="50" value="<?php echo arttmpl_helper::maskChar($_SESSION['as_sbeg_arttmpl_cat']); ?>" placeholder="<?php echo $this->i18n('a1826_search_keyword'); ?>">
 								<span class="input-group-btn">
 									<a class="btn btn-popup form-control-btn" title="<?php echo $this->i18n('a1826_search_reset'); ?>" id="s_resetsbeg"><i class="rex-icon fa-close"></i></a>
 								</span>
