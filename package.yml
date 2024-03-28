@@ -1,7 +1,7 @@
 # Alle hier gesetzten Werte können über $addon->getProperty($key) abgefragt werden
 
 package: articletemplates																							#Pflichtfeld
-version: '1.0'																								#Pflichtfeld
+version: '1.0.1'																								#Pflichtfeld
 author: Falko Müller
 supportpage: https://github.com/iceman-fx/articletemplates
 
@@ -14,7 +14,7 @@ page:
         cat: { title: 'translate:a1826_cat' }
 
         help: { title: 'translate:a1826_help', icon: rex-icon fa-info-circle, itemclass: pull-right }
-        config: { title: 'translate:a1826_config', icon: rex-icon fa-wrench, itemclass: pull-right }		
+        config: { title: 'translate:a1826_config', icon: rex-icon fa-wrench, itemclass: pull-right }
 
 requires:
     redaxo: '^5.15.0'
